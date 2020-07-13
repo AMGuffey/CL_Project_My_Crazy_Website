@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+body {
+	font-size: 1.35em;
+	font-family: 'Varela Round', sans-serif;
+	color: rgb(94, 54, 9);
+	background: #1a7e1f;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+html {
+    color: rgba(12, 12, 12, 0.938);
+    font-size: 1em;
+    line-height: 1.4;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: rgb(22, 23, 24);
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 350px;
+    align-items: center;
+    }
+
+    .Item {
+        margin: auto;
+    }
+
+/* ====================================
+    Media Queries
+===================================== */
+
+@media (min-width: 769px) {
+
+    
+    }
+@media (min-width: 1025px) {
+
+}
