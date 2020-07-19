@@ -38,7 +38,7 @@ h1 {
 
     .item {
         color: rgb(149, 9, 184);
-        padding: 15px;
+        padding: 10px;
         margin: 5px;
         background: rgba(12, 12, 12, 0.938);
         border-radius: 3px;
@@ -50,14 +50,44 @@ h1 {
         border: 2px solid #08a9d1;
     }
 
+    input[type="name"],
+    input[type="email"],
+    input[type="password"],
+    select {
+        background: rgba(255,255,255,0.1);
+        border: none;
+        font-size: 12px;
+        height: auto;
+        margin: 0;
+        outline: 0;
+        padding: 10px;
+        width: 25%;
+        background-color: #e8eeef;
+        color: #8a97a0;
+        box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+        margin-bottom: 30px;
+      }
+
+    button {
+            padding: 19px 39px 18px 39px;
+            color: black;
+            background-color: coral;
+            font-size: 18px;
+            text-align: center;
+            font-style: normal;
+            border-radius: 2px;
+            width: 25%;
+            border: 1px solid #3ac162;
+            border-width: 1px 1px 1px;
+            box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+            margin-bottom: 10px;
+          }
+
 /* ====================================
     Media Queries
 ===================================== */
 
-@media (min-width: 769px) {
-
-    
+@media (min-width: 769px) {  
     }
 @media (min-width: 1025px) {
-
 }
