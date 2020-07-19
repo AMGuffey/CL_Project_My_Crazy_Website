@@ -37,11 +37,17 @@ h1 {
     }
 
     .item {
-        color: blue;
+        color: rgb(149, 9, 184);
         padding: 15px;
         margin: 5px;
         background: rgba(12, 12, 12, 0.938);
         border-radius: 3px;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        border: 2px solid #08a9d1;
     }
 
 /* ====================================
