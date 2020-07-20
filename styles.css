@@ -14,11 +14,6 @@
     margin: 0 auto;
 }
 
-.logo {
-    justify-content: flex-end;
-    align-items: right;
-}
-
 .nav {
     flex: 1;
     justify-content: space-around;
@@ -41,26 +36,33 @@ h1 {
 /* ----- Flexbox Layout  ----- */
 
   .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
     padding: 2px;
     background: coral;
     border-radius: 2px;
     margin: 25px auto;
     box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     }
 
+/*  ----- This will become JavaScript as an image carousel 
     li {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
         color: rgb(149, 9, 184);
         padding: 10px;
         margin: 5px;
         background: rgba(12, 12, 12, 0.938);
         border-radius: 3px;
     }
-
+---------------------------------------*/
     ul {
         list-style-type: none;
         padding: 0;
@@ -69,6 +71,8 @@ h1 {
 
     h2 {
         display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
 
     input[type="name"],
@@ -94,6 +98,7 @@ h1 {
             background-color: coral;
             font-size: 18px;
             text-align: center;
+            align-items: flex-end;
             font-style: normal;
             border-radius: 2px;
             width: 25%;
