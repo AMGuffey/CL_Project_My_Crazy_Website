@@ -1,51 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Wild Backyard In the City</title>
-    <link  href="styles.css" rel="stylesheet">
-    <link  href="flexbox.css" rel="stylesheet">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Wild Backyard In the City</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-</head>
-<body>
+        <link  href="styles.css" rel="stylesheet">
+        <link  href="flexbox.css" rel="stylesheet">
+    </head>
+    <body>
 
-    <header class="header">
-        <div class="container">
-        <h1 class="logo">My Wild Backyard In the City</h1>
-        
-        </div>
-    </header>
+        <div class="header-container">
+            <header class="wrapper clearfix">
+    <!----- <img src="Flying Squirrel" ----------->
+            <h1 class="title">My Wild Backyard In the City</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Animal Facts</a></li>
+                    <li><a href="#">Book Lists</a></li>
+                    <li><a href="#">Backyard Ecology</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="main-container">
+        <div class="main wrapper clearfix">
+
         <p><center>Check out this video of burrowers and how they live even just beneath our own yards!  
         <a href="https://www.youtube.com/watch?v=U5g7x8SVgE8">Click Here</a></center></p>
         
         <p><em><center>Six Animals You May Encounter In Your Backyard</center></em>.</p>
-        
-        <ul class="nav">
-            <li><a href="#">Squirrels</li>
-            <li><a href="#">Rabbits</li>
-            <li><a href="#">Chipmunks</li>
-            <li><a href="#">Hawks</li>
-            <li><a href="#">Bird Nests</li>
-            <li><a href="#">Carpenter Bees</li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="#">Squirrels</li>
+                    <p>Stillness pallid beak tempest desert said more of the stood. Never no a fancy entrance on. It and shaven flitting.</p>
+                <li><a href="#">Rabbits</li>
+                    <p>Stillness pallid beak tempest desert said more of the stood. Never no a fancy entrance on. It and shaven flitting.</p>
+                <li><a href="#">Chipmunks</li>
+                    <p>Stillness pallid beak tempest desert said more of the stood. Never no a fancy entrance on. It and shaven flitting.</p>
+                <li><a href="#">Hawks</li>
+                    <p>Stillness pallid beak tempest desert said more of the stood. Never no a fancy entrance on. It and shaven flitting.</p>
+                <li><a href="#">Bird Nests</li>
+                    <p>Stillness pallid beak tempest desert said more of the stood. Never no a fancy entrance on. It and shaven flitting.</p>
+                <li><a href="#">Carpenter Bees</li>
+                    <p>Stillness pallid beak tempest desert said more of the stood. Never no a fancy entrance on. It and shaven flitting.</p>
+            </ul>
+        </nav>
+        </div> <!-- #main -->
+    </div> <!-- #main-container -->
 
-        
-        <h2><center>Stay Updated</center></h2>
-        
-    <form action="index.html" method="post">
-        <fieldset>
-        <center>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="user_name">
-        
-        <label for="mail">Email:</label>
-        <input type="email" id="mail" name="user_email">    
-        </center>
-        <button type="submit">Sign Up</button>
-        </fieldset> 
-        
-    </form>
-
-</body>
+    <div class="footer-container"> 
+        <footer class="wrapper">
+           
+                <form action="index.html" method="post">
+                    <fieldset>
+                    <center>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name">
+                    
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="user_email">    
+                    </center>
+                    <button type="submit">Stay Updated</button>
+                    </fieldset> 
+                </form>
+            </footer>
+        </div>
+    </body>
 </html>
