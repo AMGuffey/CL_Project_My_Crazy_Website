@@ -3,13 +3,9 @@
 * {
     box-sizing: border-box;
 }
-.header, .nav {
-    display: flex;
-    flex-direction: column;
-}
 
 .header {
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 20px 0;
     margin: 0 auto;
 }
@@ -19,10 +15,9 @@
     justify-content: space-around;
 }
 body {
-	font-family: 'Varela Round', sans-serif;
-	color: rgb(94, 54, 9);
-	background: #1a7e1f;
-
+	font-family: 'Lucida Sans';
+	color:black;
+	background: violet;
 }
 
 p {
@@ -31,82 +26,62 @@ p {
 }
 
 h1 {
+    font-size: x-large;
     color: rgb(22, 23, 24);
   }
 /* ----- Flexbox Layout  ----- */
 
-  .container {
+.container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     flex-flow: column wrap;
     padding: 2px;
-    background: coral;
-    border-radius: 2px;
+    background: rgb(2, 248, 55);
+    border: 2px;
     margin: 25px auto;
     box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
     justify-content: center;
     align-items: center;
-    }
+}
 
-/*  ----- This will become JavaScript as an image carousel 
-    li {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        flex-flow: column wrap;
-        justify-content: space-evenly;
-        color: rgb(149, 9, 184);
-        padding: 10px;
-        margin: 5px;
-        background: rgba(12, 12, 12, 0.938);
-        border-radius: 3px;
-    }
----------------------------------------*/
-    ul {
-        list-style-type: none;
-        padding: 0;
-        border: 2px solid #08a9d1;
-    }
+ ul {
+    list-style-type: none;
+    color: black;
+}
 
-    h2 {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
+h2 {
+    color: black;
+    font-size: 12px;
+}
 
-    input[type="name"],
-    input[type="email"],
-    select {
-        background: rgba(255,255,255,0.1);
-        border: none;
-        font-size: 12px;
-        height: auto;
-        margin: 0;
-        outline: 0;
-        padding: 10px;
-        width: 25%;
-        background-color: #e8eeef;
-        color: #8a97a0;
-        box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
-        margin-bottom: 30px;
-      }
 
-    button {
-            padding: 19px 39px 18px 39px;
-            color: black;
-            background-color: coral;
-            font-size: 18px;
-            text-align: center;
-            align-items: flex-end;
-            font-style: normal;
-            border-radius: 2px;
-            width: 25%;
-            border: 1px solid #3ac162;
-            border-width: 1px 1px 1px;
-            box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
-            margin-bottom: 10px;
-          }
+input[type="name"],
+select {
+    background: rgba(255,255,255,0.1);
+    font-size: 12px;
+    height: 100px;
+    outline: 0;
+    background-color: #eff5f7;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+}
+
+button {
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    color: black;
+    background-color:rgb(2, 248, 55);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    border-radius: 2px;
+    width: 7%;
+    border: 2px solid #08a9d1;
+    border-width: 1px 1px 1px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+}
 
 /* ====================================
     Media Queries
