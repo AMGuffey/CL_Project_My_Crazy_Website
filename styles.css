@@ -1,13 +1,5 @@
 /* ----- Base Styles ----- */
 
-
-html {
-    color: black;
-    font-size: 2em;
-    line-height: 4;
-    box-sizing: border-box;
-}
-
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -20,24 +12,31 @@ body {
 }
 
 .wrapper {
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
 }
 
 .header-container,
-.main aside {
-    border-top: 20px solid #599a68;
-    border-bottom: 20px solid #599a68;
- /*   background-image: C:\Users\april\Desktop\Coding Projects\CL_Projects\Website_Images;
-*/
-    
-   
+.main,
+.img {
+    margin-top: 20px solid #599a68;
+    margin-bottom: 20px solid #599a68;
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .footer-container,
 .main {
-    border-top: 20px solid #599a68;
-    border-bottom: 20px solid #599a68;
+    margin-top: 20px solid #599a68;
+    border-top: 10px solid seagreen;
+    border-bottom: 10px solid seagreen;
+    margin-bottom: 20px solid #599a68;
+    text-align: center;
 }
 
 .header-container,
@@ -59,8 +58,8 @@ nav ul {
 
 nav a {
     display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
+    margin-bottom: 10px 10px;
+    padding: 15px 15px;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
@@ -69,65 +68,30 @@ nav a {
   
   nav a:hover,
   nav a:visited {
-    color: whitesmoke;
-  }
-  
-  nav a:hover {
+    color: rgb(131, 32, 32);
     text-decoration: underline;
   }
   
   .main {
-    padding: 30px 0;
-  }
-  
-  .main article h1 {
-    font-size: 2em;
+    padding: 10px 10px;
+    margin-block: auto;
   }
  
   .footer-container footer {
+    display: inline-flex;
     color: white;
     padding: 20px 0;
-  }
+}
 
-/* Link Styles 
 p {
     font-size: .95em;
+    text-align: center;
     margin-bottom: 1.5em;
 }
 
 h1 {
     font-size: x-large;
 }
- */   
-/*
-input[type="button"],
-select {
-    background: rgba(255,255,255,0.1);
-    font-size: 12px;
-    height: 100px;
-    outline: 0;
-    background-color: #eff5f7;
-    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
-    align-items: center;
-}
-*/
-
-/* -----REMOVE CSS CODE HERE------
-button {
-    padding: 10px 20px 10px 20px;
-    color: black;
-    background-color:rgb(2, 248, 55);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: bold;
-    border-radius: 2px;
-    width: 7%;
-    border: 2px solid #08a9d1;
-    border-width: 1px 1px 1px;
-    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
-    margin-bottom: 10px;
-}
-*/
 
 /* ====================================
     Media Queries
@@ -143,7 +107,7 @@ button {
 }
 */
 
-/* ---------Treehouse Media Queries ----------------------
+/* ---------Treehouse Media Queries ---------------------- 
 @media only screen and (min-width: 480px) {
 
     nav a {
@@ -168,12 +132,16 @@ button {
          only screen and (min-width: 700px) and (orientation: landscape) {
   
     .title {
-      float: left;
+      float: center;
       font-size: 1.4em;
+    }
+
+    img {
+        float: center;
     }
   
     nav {
-      float: right;
+      float: center;
       width: 60%;
     }
   
@@ -203,7 +171,7 @@ button {
     }
     
   }
-  */
+ */
   
   /*************************
   Clearfix
