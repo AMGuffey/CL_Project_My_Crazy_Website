@@ -11,11 +11,10 @@ body {
     background-color: #599a68;
 }
 
-.wrapper {
+.main wrapper {
     width: 50%;
     margin: 0 auto;
 }
-
 .main-header,
 .img {
     display: flex;
@@ -30,30 +29,36 @@ body {
 .main-header {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px solid #599a68;
     border-top: 10px solid seagreen;
     border-bottom: 10px solid seagreen;
     margin-bottom: 20px solid #599a68;
     text-align: center;
+    list-style-type: none;
 }
-
 .footer-container,
 .main-header {
     background: #6ab47b;
 }
-
 .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
     color: black;
     text-align: center;
     font-size: x-large;
 }
-
 nav ul {
     display: flex;
     flex-direction: row;
     margin: 16px;
     border-style: double;
     padding: 16px;
+}
+ul {
     list-style-type: none;
 }
 
@@ -62,12 +67,12 @@ li a {
     flex-direction: row;
     margin-bottom: 10px 10px;
     padding: 15px 15px;
-    text-align: center;
+    justify-content: center;
     text-decoration: none;
     font-weight: bold;
     background: #599a68;
     color: rgb(131, 32, 32);
- }
+}
   
   nav a:hover,
   nav a:visited {
@@ -76,17 +81,117 @@ li a {
   }
  
   .footer-container footer {
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
     color: white;
     padding: 20px 0;
 }
 
 .main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
     font-size: .95em;
     text-align: center;
     margin-bottom: 1.5em;
 }
 
+
+
+
+/* Media Query for Mobile Devices */ 
+@media (max-width: 480px) { 
+    body { 
+        background-color: rgb(247, 138, 138); 
+    } 
+} 
+  
+/* Media Query for low resolution  Tablets, Ipads */ 
+@media (min-width: 481px) and (max-width: 767px) { 
+    body { 
+        background-color: rgb(243, 240, 79); 
+    } 
+} 
+  
+/* Media Query for Tablets Ipads portrait mode */ 
+@media (min-width: 768px) and (max-width: 1024px){ 
+    body { 
+        background-color: rgb(75, 182, 224); 
+    } 
+} 
+  
+/* Media Query for Laptops and Desktops */ 
+@media (min-width: 1025px) and (max-width: 1280px){ 
+    body { 
+        background-color: rgb(136, 219, 136); 
+    } 
+} 
+  
+/* Media Query for Large screens */ 
+@media (min-width: 1281px) { 
+    body { 
+        background-color: white; 
+    } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* On screens that are 992px or less, set the background color to blue */
+/*@media screen and (max-width: 992px) {
+    body {
+      background-color: rgb(141, 194, 169);
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+ /* @media screen and (max-width: 600px) {
+    body {
+      background-color: rgb(95, 160, 197);
+    }
+  }
 
 /* ====================================
     Media Queries
