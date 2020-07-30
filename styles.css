@@ -129,30 +129,8 @@ li a {
 } 
   
 /* Media Query for Large screens */ 
-@media (min-width: 1281px) { 
+@media (min-width: 1281px){  
     body { 
-        background-color: white; 
-    } 
-
-  
-  /*************************
-  Clearfix
-  *************************/
-/*
----------------------------------------------------------------------------------------
-  Code below taken from video or example I've read but this doesn't seem like it would work due to HTML 
- ---------------------------------------------------------------------------------------------
-  .clearfix:before, 
-  .clearfix:after {
-    content: " ";
-    display: table;
-  }
-  
-  .clearfix:after {
-    clear: both;
-  }
-  
-  .clearfix {
-    *zoom: 1;
-  }
-  */
+        background-color: white;
+    }
+}
