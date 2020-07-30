@@ -7,16 +7,22 @@
     
         <link  href="styles.css" rel="stylesheet">
         <link  href="flexbox.css" rel="stylesheet">
+        <link href="ham-menu.css" rel="stylesheet">
     </head>
     <body>
-
+        
         <div class="wrap">
             <header class="main-header">
                 <div class="container clearfix">
                     <img src="images/Flying_Squirrel.jpg" class="center">
                 <h1 class="title">My Wild Backyard In the City</h1>                
-                <nav>
-                    <ul>
+                
+            <nav id="hamnav">
+                        <!-- [THE HAMBURGER] -->
+                        <label for="hamburger">&#9776;</label>
+                        <input type="checkbox" id="hamburger"/>
+            
+                    <ul id="hamitems">
                         <li><a href="#">Animal Facts</a></li>
                         <li><a href="#">Book Lists</a></li>
                         <li><a href="#">Backyard Ecology</a></li>
