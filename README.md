@@ -2,13 +2,13 @@
 
 Hello. This is my first front end development project & I greatly appreciate the opportunity to learn something new.
 
-I tried to choose something uncomplicated as this is literally like learning 3 foreign languages at the same time. Even learning new language such as a repository and commits
-was foreign but I'm gaining confidence. I even accidentally deleted my GitBash the night before this project was due and was anxious that I wouldn't be able to update my 
+I tried to choose something uncomplicated as this is literally like learning 3 foreign languages at the same time. Even learning new language such as a 'repository' and 'commits'
+was foreign, but I'm gaining confidence. I even accidentally deleted my GitBash the night before this project was due and was anxious that I wouldn't be able to update my 
 repository but I surprised myself and found the path back.
 
 I enjoy being outdoors and nature therefore I wanted to share that a bit with fulfilling the project requirements without further getting in over my head.
 
-I had a difficult time learning the logic initially but the more I practice and read down the rabbit hole, the more I am able to connect the dots faster for styling/user purposes.
+I had a difficult time learning the logic initially but the more I practice and read down the rabbit hole, the more I am able to connect the dots faster for styling/user purposes. 
 
 I created my project to have flex from desktop to mobile however I notice there is scroll-ability left<>right on the mobile view and unfamiliar with how to correct at this time.
 
